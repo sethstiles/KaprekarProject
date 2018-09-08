@@ -4,7 +4,7 @@
 #include "kaprekarUtils.h"
 
 int main(int argc, char **argv) {
-
+int isKaprekar;
   if(argc != 2) {
     fprintf(stderr, "Usage: %s n\n", argv[0]);
     exit(1);
